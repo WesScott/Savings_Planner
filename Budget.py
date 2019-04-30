@@ -97,7 +97,7 @@ quitList = ["Quit", "quit", "Exit", "exit", "Stop", "stop"]
 
 # printExpenses() prints an easy to read summary of what I'm spending on (and how much on each)
 def printExpenses():
-    print("\nAs of {}, the following are the calculations for my expenses:".format(DATE))
+    print("\nAs of {} the following are the calculations for my expenses:".format(DATE))
     print("Rent: ${}".format(RENT))
     print("Internet/Cable: ${}".format(INTERNET))
     print("Utilities: ${}".format(UTIL))
