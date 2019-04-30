@@ -34,7 +34,7 @@ PAY = 0
 
 """ End Primary Program Variables """
 
-#File reading
+# File reading
 def readVars():
     global RENT
     global INTERNET
@@ -71,7 +71,7 @@ def writeVars():
     global ADDITIONAL
     global DATE
     global PAY
-    #try:
+    # try:
     file1 = open("vars.txt","w")
     file1.write(str(RENT) + '\n')
     file1.write(str(INTERNET) + '\n')
@@ -86,8 +86,8 @@ def writeVars():
     file1.write(userIN)
     file1.write(str(PAY) + '\n')
     file1.close()
-    #except:
-    #print("ERROR. Changes not saved.")
+    # except:
+    # print("ERROR. Changes not saved.")
         
 
 # The following three lists are lists used to process user Inputs:
@@ -181,7 +181,7 @@ def setTempVals():
         except:
             print("Something went wrong. For all entries except for Pay, please use integers")
             continue
-    userIn= input(("Would you like to set these as your permanent values?"))
+    userIn= input("Would you like to set these as your permanent values?")
     if userIn in yesList:
         writeVars()
     mainMenu()
