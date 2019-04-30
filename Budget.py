@@ -2,35 +2,35 @@ import math
 
 """ Primary Program Variables """
 # Rent for Austin Waters:
-RENT = 1200
+RENT = 0
 
 # Current AT&T Internet and TV Bundle:
-INTERNET = 100
+INTERNET = 0
 
 # Allowance for Utilities:
-UTIL = 50
+UTIL = 0
 
 # Paying parents back for phone, insurance, etc.:
-REIMBURSE_PARENTS = 200
+REIMBURSE_PARENTS = 0
 
 # This a lump sum meant for paying 2520 rent, which will eventually be used
 # towards student loans:
-STULOANS = 550
+STULOANS = 0
 
 # Estimate for gas/fuel expenses:
-GAS = 50
+GAS = 0
 
 # Estimate for groceries:
-GROCERIES = 100
+GROCERIES = 0
 
 # Any potential lump sums not addressed:
 ADDITIONAL = 0
 
 # The last date that these amounts were updated/recalculated:
-DATE = "April 25th, 2019"
+DATE = "April 29th, 2019"
 
 # This is the amount of money I can expect to see in my paycheck:
-PAY = 1605.12
+PAY = 0
 
 """ End Primary Program Variables """
 
